@@ -1,0 +1,30 @@
+# ================================================================
+# LifeOS Landing — Configuration
+# ================================================================
+# This file is a TEMPLATE. It contains NO real secrets.
+#
+# HOW TO USE:
+#   1. Open index.html
+#   2. Find these two lines near the top of the <script> section:
+#        const SUPABASE_URL      = 'REPLACE_WITH_YOUR_SUPABASE_URL'
+#        const SUPABASE_ANON_KEY = 'REPLACE_WITH_YOUR_SUPABASE_ANON_KEY'
+#   3. Replace the placeholder strings with your actual values
+#
+# WHERE TO FIND YOUR VALUES:
+#   supabase.com → your project → Settings → API
+#     • Project URL  →  SUPABASE_URL
+#     • anon / public key  →  SUPABASE_ANON_KEY
+#
+# FOR VERCEL DEPLOY — set as Environment Variables in:
+#   Vercel Dashboard → Project → Settings → Environment Variables
+#
+# ⚠️  SECURITY RULES:
+#   • The anon key is PUBLIC by design (Supabase RLS protects the data)
+#   • NEVER use your service_role key in the frontend
+#   • Secret API keys (Resend) go in Supabase Edge Function secrets:
+#       supabase secrets set RESEND_API_KEY=re_xxxxxxxxxxxx
+#       supabase secrets set ALLOWED_ORIGIN=https://lifeos.app
+# ================================================================
+
+SUPABASE_URL=https://YOUR_PROJECT_ID.supabase.co
+SUPABASE_ANON_KEY=YOUR_ANON_PUBLIC_KEY_HERE
